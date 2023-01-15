@@ -1,5 +1,12 @@
 
 {
-        "users":[]
-  wahahahhahhaah)
+        "users":[
+                {
+                  "id":1,
+                  "name":"Vally",
+                  "surname":"Bulhakov",
+                  "photo_url":"https://i1.sndcdn.com/avatars-isQpTzkkjxzRPrxp-yK9v3w-t500x500.jpg",
+                  "balance": 1500      
+                }
+        ]
 }
