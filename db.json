@@ -28,5 +28,12 @@
                   "photo_url":"https://www.pngplay.com/wp-content/uploads/12/Crying-Cat-Meme-Transparent-PNG.png",
                   "balance": 9153513513      
                 }
+                {
+                  "id":4,
+                  "name":"Bogdan",
+                  "surname":"Shynkarenko",
+                  "photo_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Felis_catus-cat_on_snow.jpg/1200px-Felis_catus-cat_on_snow.jpg",
+                  "balance": 5002      
+                }
         ]
 }
