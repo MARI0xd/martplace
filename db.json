@@ -75,5 +75,22 @@
           "author_id": 2,
           "image":" https://content.rozetka.com.ua/goods/images/big/164644334.jpg",
       }
+      {
+        "id": 3,
+      "name":"battery",
+      "description":"Battery type:Description of batteries Panasonic General Purpose carbon-zinc D (R20) film, 2 pcs (R20BER/2P);
+       General Purpose batteries are salt batteries for low power consumption devices.
+
+      Specifics:
+
+      Weight: 98.5 g
+      Electrochemical system: Primary manganese-zinc
+      Voltage: 1.5 V  
+      The set includes: 2 pcs
+      Local classification: D",
+      "price": 89,
+      "author_id": 3,
+      "image":"https://content.rozetka.com.ua/goods/images/big/10784285.jpg",
+      }
         ]
 }
