@@ -35,5 +35,22 @@
                   "photo_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Felis_catus-cat_on_snow.jpg/1200px-Felis_catus-cat_on_snow.jpg",
                   "balance": 5002      
                 }
+        ],
+        "products": [
+      {     
+          "id":1,
+          "name":"Torch",
+          "description":"SUPER-BRIGHT: 400-lumen Cree LED (50000-hour lifespan). A compact, yet radiant flashlight to illuminate any dark spot, space, or place. Features High / Medium / Low / Strobe / SOS modes.
+          LONG-LASTING: Up to 20 hours (Medium-beam mode) of powerful, non-diminishing brightness from the included premium rechargeable 3350mAh battery. LEDs boast an extended 50000-hour lifespan. Recharge in 6 hours with a 5V 1A adapter (not included) and the included Micro USB cable.
+          TOUGH AND RELIABLE: IPX5-rated. Designed for almost any conditions, from heavy rain to dry and dusty environments. Its durable aluminum body and shock-resistance endure rough handling.
+          EASY TO GRIP: Lightweight and easy to carry around, the anti-slip finish holds fast in your hand during extreme conditions.
+          WHAT YOU GET: Anker Bolder LC40 Rechargeable Flashlight (with built-in 3350mAh rechargeable battery), welcome guide, Micro USB cable, and our worry-free 18-month warranty and friendly customer service.",
+          "price": 30,
+          "author_id": 1,
+          "image":" https://m.media-amazon.com/images/I/611pE9Yu5yL._AC_SL1500_.jpg",
+          
+          
+          
+      }
         ]
 }
