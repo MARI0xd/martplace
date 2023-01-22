@@ -52,5 +52,28 @@
           
           
       }
+      {
+      	"id":2,
+          "name":"Powerbank",
+          "description":"Battery type: Lithium polymer;
+				Battery capacity: 20000 mAh 3.7V 74Wh;
+			Rated capacity: 12000 mAh (5.1V - 3.6A);
+			Maximum current: 3.6 A;
+			Two Micro-USB and USB-C ports for self-charging;
+			Support low current charging;
+			Two USB-A ports for simultaneous charging of two devices;
+			Charging functions: fast charge 18W;
+			Input interface: Micro-USB, USB-C;
+			Output interface: 2 x USB-A;
+			Login options:
+			Micro-USB: 5V-3.6A; 9V-2.1A; 12V-1.5A;
+			USB-C: 5V-3.6A; 9V-2.1A; 12V-1.5A;
+			Exit options:
+			USB-A: 5.1V - 2.4A, 9V - 2A (MAX), 12V - 1.5A (MAX);
+			When using two USB-A ports: 5.1V - 3.6A;",
+          "price": 50,
+          "author_id": 2,
+          "image":" https://content.rozetka.com.ua/goods/images/big/164644334.jpg",
+      }
         ]
 }
