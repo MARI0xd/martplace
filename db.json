@@ -33,7 +33,7 @@
         "products": [
       {     
           "id":1,
-          "name":"Torch",
+          "product_name":"Torch",
           "description":"SUPER-BRIGHT: 400-lumen Cree LED (50000-hour lifespan). A compact, yet radiant flashlight to illuminate any dark spot, space, or place. Features High / Medium / Low / Strobe / SOS modes.
           LONG-LASTING: Up to 20 hours (Medium-beam mode) of powerful, non-diminishing brightness from the included premium rechargeable 3350mAh battery. LEDs boast an extended 50000-hour lifespan. Recharge in 6 hours with a 5V 1A adapter (not included) and the included Micro USB cable.
           TOUGH AND RELIABLE: IPX5-rated. Designed for almost any conditions, from heavy rain to dry and dusty environments. Its durable aluminum body and shock-resistance endure rough handling.
@@ -45,7 +45,7 @@
       }
       {
       	"id":2,
-          "name":"Powerbank",
+          "product_name":"Powerbank",
           "description":"Battery type: Lithium polymer;
 				Battery capacity: 20000 mAh 3.7V 74Wh;
 			Rated capacity: 12000 mAh (5.1V - 3.6A);
@@ -68,7 +68,7 @@
       }
       {
         "id": 3,
-      "name":"battery",
+      "product_name":"battery",
       "description":"Battery type:Description of batteries Panasonic General Purpose carbon-zinc D (R20) film, 2 pcs (R20BER/2P);
        General Purpose batteries are salt batteries for low power consumption devices.
 
@@ -85,7 +85,7 @@
       }
       {
         "id":4,
-        "name":"Мобильная электростанция Bluetti EB3A, 600 Вт",
+        "product_name":"Мобильная электростанция Bluetti EB3A, 600 Вт",
         "description":"Краткие характеристики: Емкость: 268 Вт*ч Возможность зарядить IPhone 12 более 25 раз Мощность (пиковая): 600 Вт (1200Вт)
         Выходные интрефейсы: 2х 220В (переменный ток)
         2х 120В (постоянный ток)
