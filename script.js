@@ -1,7 +1,7 @@
 let productsGrid = document.getElementById('products-grid');
 let productsArray = [];
 let xhr = new XMLHttpRequest();
-let url = 'https://my-json-server.typicode.com/MARI0xd/martplace/db';
+//let url = 'https://my-json-server.typicode.com/MARI0xd/martplace/db';
 
 xhr.open('GET', url + '/products');
 xhr.responseType = 'json';
@@ -31,3 +31,5 @@ if(localStorage.getItem('cart')) {
     cart = JSON.parse(localStorage.getItem('cart'));
     drawCartProducts();
 }
+
+
