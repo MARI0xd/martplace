@@ -136,4 +136,3 @@ document.getElementById('order-form').addEventListener('submit', function(e) {
       cartProd.innerHTML = 'Money was withdrawn from your credit card';
       localStorage.setItem("cart", '[]');
 })
-
