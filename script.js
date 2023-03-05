@@ -1,12 +1,12 @@
 let productsGrid = document.getElementById('products-grid');
 let productsArray = [];
 let xhr = new XMLHttpRequest();
-let url = 'https://market-6d33.restdb.io/rest';
+let url = 'https://martplace-5fb3.restdb.io/rest';
 
-xhr.open('GET',url + '/products');
+xhr.open('GET', "https://martplace-5fb3.restdb.io/rest/product");
 
 xhr.setRequestHeader("content-type", "application/json");
-xhr.setRequestHeader("x-apikey", "61b3ca4f72a03f5dae8222ad");
+xhr.setRequestHeader("x-apikey", "640448b7bc22d22cf7b25c06");
 xhr.setRequestHeader("cache-control", "no-cache");
 
 xhr.responseType = 'json'
@@ -135,4 +135,10 @@ document.getElementById('order-form').addEventListener('submit', function(e) {
       cart = [];
       cartProd.innerHTML = 'Money was withdrawn from your credit card';
       localStorage.setItem("cart", '[]');
+
+      xhr.open("POST", "https://martplace-5fb3.restdb.io/rest/product");
+      xhr.setRequestHeader("content-type", "application/json");
+      xhr.setRequestHeader("x-apikey", "<your CORS apikey here>");
+      xhr.setRequestHeader("cache-control", "no-cache");
+
 })
