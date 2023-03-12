@@ -124,10 +124,10 @@ document.getElementById('order-form').addEventListener('submit', function(e) {
         "products": localStorage.getItem('cart')
       });
 
-      var xhr = new XMLHttpRequest();
-      xhr.open("POST", url + "/orders");
+      let xhr = new XMLHttpRequest();
+      xhr.open("POST", "https://martplace-5fb3.restdb.io/rest/orders");
       xhr.setRequestHeader("content-type", "application/json");
-      xhr.setRequestHeader("x-apikey", "61b3ca4f72a03f5dae8222ad");
+      xhr.setRequestHeader("x-apikey", "640448b7bc22d22cf7b25c06");
       xhr.setRequestHeader("cache-control", "no-cache");
       xhr.send(data);
 
@@ -135,10 +135,5 @@ document.getElementById('order-form').addEventListener('submit', function(e) {
       cart = [];
       cartProd.innerHTML = 'Money was withdrawn from your credit card';
       localStorage.setItem("cart", '[]');
-
-      xhr.open("POST", "https://martplace-5fb3.restdb.io/rest/product");
-      xhr.setRequestHeader("content-type", "application/json");
-      xhr.setRequestHeader("x-apikey", "<your CORS apikey here>");
-      xhr.setRequestHeader("cache-control", "no-cache");
 
 })

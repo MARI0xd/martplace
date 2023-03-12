@@ -22,9 +22,9 @@ productForm.addEventListener('submit', function(event){
         }
     };
 
-    xhr.open("POST", "https://market-6d33.restdb.io/rest/products");
+    xhr.open("POST", "https://martplace-5fb3.restdb.io/rest/product");
     xhr.setRequestHeader("content-type", "application/json");
-    xhr.setRequestHeader("x-apikey", "61b3ca4f72a03f5dae8222ad");
+    xhr.setRequestHeader("x-apikey", "640448b7bc22d22cf7b25c06");
     xhr.setRequestHeader("cache-control", "no-cache");
 
     xhr.send(data);
@@ -33,10 +33,10 @@ productForm.addEventListener('submit', function(event){
 let orders = document.getElementById('admin_page_orders');
 
 let xhr = new XMLHttpRequest();
-xhr.open("GET", "https://market-6d33.restdb.io/rest/orders");
+xhr.open("GET", "https://martplace-5fb3.restdb.io/rest/orders");
 xhr.responseType = 'json'
 xhr.setRequestHeader("content-type", "application/json");
-xhr.setRequestHeader("x-apikey", "61b3ca4f72a03f5dae8222ad");
+xhr.setRequestHeader("x-apikey", "640448b7bc22d22cf7b25c06");
 xhr.setRequestHeader("cache-control", "no-cache");
 
 xhr.onload = function() {
@@ -89,9 +89,9 @@ function complete(id) {
         }
     }
 
-    xhr.open("PUT", "https://market-6d33.restdb.io/rest/orders/"+id);
+    xhr.open("PUT", "https://martplace-5fb3.restdb.io/rest/orders/"+id);
     xhr.setRequestHeader("content-type", "application/json");
-    xhr.setRequestHeader("x-apikey", "61b3ca4f72a03f5dae8222ad");
+    xhr.setRequestHeader("x-apikey", "640448b7bc22d22cf7b25c06");
     xhr.setRequestHeader("cache-control", "no-cache");
 
     xhr.send(data);

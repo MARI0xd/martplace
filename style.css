@@ -3,31 +3,66 @@
     padding: 0;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-
-main, header {
+body{
+    background-image: linear-gradient(90deg, rgba(60,58,180,1) 10%, rgba(158,43,104,1) 41%, rgba(253,29,29,1) 93%);
+    width: 100%;
+}
+.link{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+main{
     margin: 5vh 10vw;
 }
 
 header {
     display: flex;
     justify-content: space-between;
+    background-color: black;
+    width: 100%;
+    color: white;
+    border-radius: 10px;
+    margin: 5px;
 }
-
+.header_adm a{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    width: 100%;
+    color: white;
+    border-radius: 10px;
+    margin: 0px auto;
+}
 #products-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
 }
-
+.product_list_caption{
+   height: 50px;
+   width: 80%;
+   margin: 0 auto;
+   display: flex;
+   justify-content: flex-start;
+   align-items: flex-end;
+   color: white;
+}
 .product {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(255, 255, 255, 0.5);
     padding: 1rem;
     border-radius: 1rem;
-    color: #ffffff;
+    color: white;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-start;
+    max-height: 500px;
+    overflow: hidden;
 }
+.product:hover{
+    overflow: auto;
+}
+
 
 .product-photo {
     max-width: 100px;
@@ -92,6 +127,7 @@ nav {
 #cart-button img {
     max-width: 32px;
     max-height: 32px;
+    background-color: white;
 }
 
 #cart-button:hover {
@@ -272,7 +308,16 @@ nav {
     gap: 10px;
     margin: 10px 0;
   }
-
+.add_product{
+    border: 2px solid white;
+    height: 400px;
+    width: 300px;
+    margin-left: -10px;
+    padding-left: 30px;
+    padding-top: 40px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
   #order-form input,
   #add_product_form input{
       font-size: 1.5rem;
